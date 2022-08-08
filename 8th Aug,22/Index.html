@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id="demo"></p>
+<p id="d"></p>
+<p id="de"></p>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+    <script>
+        // document.getElementById("demo").innerHTML=Math.round(4.5);
+        // document.getElementById("d").innerHTML=Math.pow(8,2);
+        // document.getElementById("de").innerHTML=Math.sqrt(64,2); // second parameter does not work
+        // document.getElementById("a").innerHTML=Math.abs(-4.4); //never prints neg value
+        // document.getElementById("b").innerHTML=Math.max(64,2,7,9,3,70,-90,-6);
+        // document.getElementById("c").innerHTML=Math.min(64,2,9,90,56,-78,0);
+
+
+        var str="Learning is for forever";
+        var pattern1=/for/g;  // i=casesensative,m=multiline
+        var str2=str.replace(pattern1,"best");
+        document.write(str2);
+    </script>
+</body>
+</html>
