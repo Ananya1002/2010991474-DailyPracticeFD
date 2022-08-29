@@ -1,10 +1,12 @@
 Git commands:
 git init
 git add .
-git commands -m" "
+git commit -m" "
 git push master
 
 
 React commands:
 npm install -g create-react-app
 create-react-app react-task-tracker
+npm start
+
