@@ -10,3 +10,7 @@ npm install -g create-react-app
 create-react-app react-task-tracker
 npm start
 
+props=used to link with properties
+Header(functions name).defaultProps={
+title=any name given
+
